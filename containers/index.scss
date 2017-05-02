@@ -1,6 +1,9 @@
 $green:#7b8a6d;
 $orange:#dbba69;
 $black:#363634;
-@import "./firstpage/head.scss";
-@import "./firstpage/list.scss";
+html{
+  font-size: 16px;
+}
+@import "./firstpage/index.scss";
+@import "./secondpage/index.scss";
 

@@ -23,7 +23,7 @@ export class Content extends React.Component{
     let generateLists=this.state.lists.map(function(item,index,array) {
       return (<List listData={item} key={index}/>);
     })
-    return (<div>
+    return (<div className="mycontent">
       {generateLists}
     </div>);
   }

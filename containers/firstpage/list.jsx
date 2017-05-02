@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router'
 export class List extends React.Component{
   constructor(){
     super()
@@ -11,7 +12,7 @@ export class List extends React.Component{
           <div className="listwrap-pic"></div>
           <div className="listwrap-top-right">
             <div className="listwrap-top-right-top">
-              <div className="listwrap-name">{this.props.listData.name}</div>
+              <div className="listwrap-name"><Link to="/secondpage">{this.props.listData.name}</Link></div>
               <div className="listwrap-price">{this.props.listData.price}</div>
             </div>
             <div className="listwrap-top-right-bottom">规格：{this.props.listData.discription}</div>

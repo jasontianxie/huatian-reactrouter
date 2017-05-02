@@ -1,0 +1,10 @@
+@import "./head.scss";
+@import "./list.scss";
+.test-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.mycontent{
+  flex: 1;
+  overflow-y: auto;
+}
